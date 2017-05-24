@@ -19,9 +19,9 @@ gem 'redis-rails', '~> 4.0.0'
 gem 'redis-rack-cache', '~> 1.2.2'
 gem 'sidekiq', '~> 4.2.3'
 gem 'sidekiq-failures'
-gem 'sinatra', '>= 1.3.0', :require => nil
+gem 'sinatra', '< 2', :require => nil
 gem 'mysql2', '~> 0.3.0'
-gem 'nokogiri', '~> 1.6.2.1'
+gem 'nokogiri', '~> 1.6'
 gem 'api_hammer', '~> 0.14.1'
 gem 'lograge', '~> 0.3.0'
 gem 'venuenext_oauth_config', :git => 'git@github.com:venuenext/venuenext_oauth_config.git', :tag => 'v1.10.1'
